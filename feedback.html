@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="feedback.css"/>
+    <script src="https://kit.fontawesome.com/b2f7a1c61f.js" crossorigin="anonymous"></script>
+    <title>Web</title>
+</head>
+<body>
+    <div class="container">
+        <form onsubmit="sendEmail(); reset(); return false;">
+            <h3>Give Some Feedback!</h3>
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="institue mail id" id="email" placeholder="Your institue email-id" required>
+            <input type="text" id="phone" placeholder="Phone no." required>
+            <textarea id="message" row="4" placeholder="How can we help you? Any particular issues?"></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+    <div class="nav bar">
+        <ul>
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="dashboard.html">Dashboard</a>
+            </li>
+            <li>
+              <a href="feedback.html">Feedback</a>
+            </li>
+            <li>
+              <a href="about.html">About</a>
+            </li>
+        </ul>
+    </div>
+    <script src=" https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+        Email.send({
+        Host : "smtp.gmail.com",
+        Username : "mubashir457@gmail.com",
+        Password : "A9366811C8AE9E2E6F1082C45E1FD858FCE6",
+        To : 'mubashir1728@website.com',
+        From : document.getElementById("email").value,
+        Subject : "New Message",
+        Body : "Body:"
+        }).then(
+        message => alert(message)
+        );
+    </script>
+</body>

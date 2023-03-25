@@ -22,7 +22,13 @@ body{
     align-self: flex-start;
     background: #283F37;
     border-radius: ;
-    border-top-left-radius: 0px;
+    border-bottom-right-radius: 40px;
+    height: 100vh;
+}
+.text2{
+    margin-top: 20px;
+    margin-left: 40px;
+    color: #7d7d7d
 }
 .text,
 .text1{
@@ -34,7 +40,7 @@ body{
 }
 .box1{
     padding: 2px;
-    margin-top: 40px;
+    margin-top: 20px;
     height: 80px;
     margin-left: 15px;
     margin-right: 15px;
@@ -103,6 +109,14 @@ body{
     margin-bottom: 20px;
     border-radius: 25px;
     transition: height 0.5s;
+}
+.link {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
 }
 .chatbox4{
     padding: 2px;
@@ -178,9 +192,6 @@ li a:hover{
     font-size: small;
     padding: 20px;
     text-decoration: none;
-}
-.attendance-graph{
-    position: absolute;
 }
 .maincontainer-text{
     padding: 0px;
@@ -266,7 +277,7 @@ li a:hover{
     background: linear-gradient(rgb(1, 120, 255), rgb(52, 225, 255));
     border-radius: 45px;
     margin-left: 35px;
-    margin-top: 35px;
+    margin-top: -65px;
     transition: scale 0.5s;
 }
 .mainbox1container{
@@ -345,7 +356,7 @@ li a:hover{
 }
 .containerbox1, .containerbox2, .containerbox3{
     padding: 2px;
-    height: 55%;
+    height: 35%;
     width: 90%;
     background: #FFF;
     border-radius: 25px;
@@ -356,6 +367,7 @@ li a:hover{
 .containerbox1-text{
     margin-left: 20px;
     margin-top: 20px;
+    color: #4b4b4b
 }
 .containerbox1-text1{
     margin-left: 35px;
@@ -389,6 +401,59 @@ li a:hover{
     padding: 10px;
 }
 .searchbar{
-    margin-left: 50px;
-    margin-top: 100px;
+    border: none;
+    border-radius: 5px;
+    height: 20px;
+    margin-top: 120px;
+    margin-left: 150px;
+    width: 70%;
+    padding: 2px 23px 2px 30px;
+    outline: 0;
+    background-color: #f5f5f5;
+}
+
+
+
+
+.form{
+ position: relative;
+ width: 200%;
+
+}
+
+.form .fa-search{
+
+    position: absolute;
+    top:20px;
+    left: 20px;
+    color: #9ca3af;
+    margin-top: 130px;
+    margin-left: 30px;
+
+}
+
+.form span{
+
+    position: absolute;
+    right: 17px;
+    top: 13px;
+    padding: 2px;
+    border-left: 1px solid #ffffff;
+    margin-top: 130px;
+}
+
+
+.form-input{
+    height: 55px;
+    text-indent: 33px;
+    border-radius: 10px;
+    width: 200%;
+    margin-top: 130px;
+    margin-left: 40px;
+}
+
+.form-input:focus{
+
+    box-shadow: none;
+    border:none;
 }
