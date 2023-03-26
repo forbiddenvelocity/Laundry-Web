@@ -16,7 +16,7 @@ ul {
     padding: 20px;
     position: absolute;
     list-style-type: none;
-    margin-left: 565px;
+    margin-left: 630px;
     margin-top: -750px;
     padding: 0;
     overflow: hidden;
@@ -58,7 +58,7 @@ form{
     padding: 2vw 4vw;
     width: 90%;
     max-width: 600px;
-    border-radius: 10px;
+    border-radius: 30px;
 }
 form h3{
     color: #243241;
