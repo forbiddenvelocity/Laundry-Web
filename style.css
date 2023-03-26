@@ -33,7 +33,7 @@ body{
     background: #283F37;
     border-radius: ;
     border-bottom-right-radius: 40px;
-    height: 100vh;
+    height: 100dvh;
 }
 .text2{
     margin-top: 20px;
@@ -380,8 +380,7 @@ li a:hover{
     color: #eb421c;
 }
 .containerbox2-text{
-    font-weight: 300;
-    font-size:smaller
+    font-size:larger;
 }
 .mainbox1-title, .mainbox2-title, .mainbox3-title, .mainbox4-title{
     font-weight: bolder;
@@ -452,7 +451,7 @@ li a:hover{
     height: 55px;
     text-indent: 33px;
     border-radius: 10px;
-    width: 200%;
+    width: 180%;
     margin-top: 130px;
     margin-left: 40px;
 }
@@ -461,4 +460,10 @@ li a:hover{
 
     box-shadow: none;
     border:none;
+}
+.nitwlogo{
+    scale:0.3;
+    border-radius: 100px;
+    margin-left: -20px;
+    margin-top: -30px;
 }

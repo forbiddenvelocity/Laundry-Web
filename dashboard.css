@@ -10,7 +10,7 @@
   font-family: "Poppins", sans-serif;
 }
 body{
-  background: #f6f6f6;
+  background: #eaeaea;
 }
 .header{
   display: flex;
@@ -18,7 +18,7 @@ body{
   justify-content: space-between;
   height: 60px;
   padding: 20px;
-  background: #f6f6f6;
+  background: #eaeaea;
 }
 
 .search_box{
@@ -29,7 +29,7 @@ body{
   padding: 9px;
   margin-left: -10px;
   width: 250px;
-  background: rgb(228, 228, 228);
+  background: rgb(196, 196, 196);
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
 }
@@ -78,7 +78,8 @@ nav{
   padding: 1px;
   display: flex;
   flex-direction: column;
-  border-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
   margin-top: -80px;
 }
 .side_navbar span{

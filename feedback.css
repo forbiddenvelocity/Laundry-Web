@@ -85,3 +85,9 @@ form button{
     margin: 20px auto 0;
     border-radius: 30px;
 }
+.text{
+    align-self: center;
+    margin-left: 560px;
+    margin-bottom: 40px;
+    color: #555555
+}
